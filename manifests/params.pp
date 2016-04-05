@@ -11,7 +11,7 @@
 
 class loggly::params {
   case $operatingsystem {
-    'RedHat', 'Ubuntu', 'Fedora', 'CentOS', 'Debian': {
+    'RedHat', 'Ubuntu', 'Fedora', 'CentOS', 'Debian', 'OracleLinux': {
       # base directory for loggly support files
       $base_dir = '/usr/local/loggly'
 
